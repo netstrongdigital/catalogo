@@ -456,15 +456,21 @@ $("#the_form").trigger("change");
     justify-content: center;
     gap: 8px; /* Espaço entre ícone e texto */
 }
+
+/* Ajuste para mobile */
 @media (max-width: 768px) {
+    .botao-entrega-row {
+        flex-direction: column; /* Alinha os botões verticalmente */
+        gap: 15px; /* Espaço maior entre os botões */
+    }
     .botao-entrega-row > div {
-        flex: 1 1 45%;
-        max-width: 48%;
-        min-width: 120px;
+        flex: 1 1 100%; /* Cada botão ocupa 100% da largura */
+        max-width: 100%; /* Remove limite de largura */
+        min-width: auto; /* Remove limite mínimo */
     }
     .botao-entrega {
         font-size: 14px;
-        padding: 8px 10px;
+        padding: 12px 20px; /* Ajusta o padding para mobile */
     }
 }
 </style>
