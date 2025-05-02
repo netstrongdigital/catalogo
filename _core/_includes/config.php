@@ -57,7 +57,8 @@ $db_pass = "$fast_db_pass";
 $db_name = "$fast_db_name";
 
 // SMTP
-$smtp_name = "$fast_smtp_link";
+$smtp_host = "$fast_smtp_host"; 
+$smtp_name = "$fast_smtp_name"; 
 $smtp_user = "$fast_smtp_user";
 $smtp_pass = "$fast_smtp_pass";
 

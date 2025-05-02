@@ -47,7 +47,8 @@ $fast_mp_client_id = "";
 $fast_mp_client_secret = "";
 
 // SMTP
-$fast_smtp_link = "";
+$fast_smtp_host = "mail.$dominio"; 
+$fast_smtp_name = "";          // Nome do Remetente
 $fast_smtp_user = "";
 $fast_smtp_pass = "";
 

@@ -6,239 +6,65 @@
 
 
 
-	function html_mail($to,$subject,$msg) {
-
-
-
-
-
-
-
-		global $smtp_name;
-
-
-
-		global $smtp_user;
-
-
-
-		global $smtp_pass;
-
-
-
-
-
-
-
-		// Parametros
-
-
-
-
-
-
-
-		$destinatarios = $to;
-
-
-
-		$nomeDestinatario = $smtp_name;
-
-
-
-		$usuario = $smtp_user;
-
-
-
-		$senha = $smtp_pass;
-
-
-
-		$nomeRemetente = $smtp_user;
-
-
-
-
-
-
-
-		/*********************************** A PARTIR DAQUI NAO ALTERAR ************************************/
-
-
-
-
-
-
-
-		$To = $destinatarios;
-
-
-
-		$Subject = $subject;
-
-
-
-		$Message = $msg;
-
-
-
-
-
-
-
-		$Host = 'mail.'.substr(strstr($usuario, '@'), 1);
-
-
-
-		// $Host = 'smtp.titan.email';
-
-
-
-		$Username = $usuario;
-
-
-
-		$Password = $senha;
-
-
-
-		$Port = "587";
-
-
-
-
-
-
-
-		$mail = new PHPMailer();
-
-
-
-		$body = $Message;
-
-
-
-		// $mail->IsSMTP(); // telling the class to use SMTP
-
-
-
-		$mail->Host = $Host; // SMTP server
-
-
-
-		$mail->SMTPDebug = 3; // enables SMTP debug information (for testing)
-
-
-
-		// 1 = errors and messages
-
-
-
-		// 2 = messages only
-
-
-
-		$mail->SMTPAuth = true; // enable SMTP authentication
-
-
-
-		$mail->Port = $Port; // set the SMTP port for the service server
-
-
-
-		$mail->Username = $Username; // account username
-
-
-
-		$mail->Password = $Password; // account password
-
-
-
-		$mail->CharSet = 'UTF-8';
-
-
-
-		$mail->Timeout = 60;
-
-
-
-    	$mail->IsHTML(true);
-
-
-
-
-
-
-
-		$mail->SetFrom($usuario, $nomeDestinatario);
-
-
-
-		$mail->Subject = $Subject;
-
-
-
-		$mail->MsgHTML($body);
-
-
-
-		$mail->AddAddress($To, "");
-
-
-
-
-
-
-
-		/* Enviar o email */
-
-
-
-
-
-
-
-		if( $mail->Send() ) {
-
-
-
-
-
-
-
-			return true;
-
-
-
-
-
-
-
-		} else {
-
-
-
-
-
-
-
-			return false;
-
-
-
-
-
-
-
-		}
-
-
-
-
-
-
+function html_mail($to,$subject,$msg) {
+
+	global $smtp_host; // novo host
+	global $smtp_name; // nome do remetente
+	global $smtp_user;
+	global $smtp_pass;
+
+	// Parametros
+
+	$destinatarios = $to;
+	$nomeDestinatario = $smtp_name;
+	$usuario = $smtp_user;
+	$senha = $smtp_pass;
+	$nomeRemetente = $smtp_user;
+
+	/*********************************** A PARTIR DAQUI NAO ALTERAR ************************************/
+
+	$To = $destinatarios;
+	$Subject = $subject;
+	$Message = $msg;
+
+	$Host = $smtp_host; // usar variável global correta
+	$Username = $usuario;
+	$Password = $senha;
+	$Port = 465; // porta SSL
+
+	$mail = new PHPMailer();
+	$body = $Message;
+	$mail->IsSMTP(); // usar SMTP
+	$mail->Host = $Host;
+	$mail->SMTPDebug = 0; // 0 produção, 2 debug
+	$mail->SMTPAuth = true;
+	$mail->SMTPSecure = 'ssl';
+	$mail->Port = $Port;
+	$mail->Username = $Username;
+	$mail->Password = $Password;
+	$mail->CharSet = 'UTF-8';
+	$mail->Timeout = 60;
+	$mail->IsHTML(true);
+
+	$mail->SetFrom($usuario, $smtp_name); // nome do remetente correto
+	$mail->Subject = $Subject;
+	$mail->MsgHTML($body);
+	$mail->AddAddress($To, "");
+
+	/* Enviar o email */
+
+	if( $mail->Send() ) {
+
+		return true;
+
+	} else {
+
+		return false;
 
 	}
+
+}
+
 
 
 
