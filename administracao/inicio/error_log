@@ -1,0 +1,34 @@
+[28-Oct-2024 08:32:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:32:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:32:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:33:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:33:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:33:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:33:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:34:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:35:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 518
+[28-Oct-2024 08:40:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:40:13 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:40:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:40:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:40:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:40:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:40:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 520
+[28-Oct-2024 08:43:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 521
+[28-Oct-2024 08:43:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/tecautov/public_html/administracao/inicio/index.php on line 521
+[28-Oct-2024 20:11:18 America/Sao_Paulo] PHP Warning:  include(fast_config.php): failed to open stream: No such file or directory in /home/tecautov/public_html/_core/_includes/config.php on line 3
+[28-Oct-2024 20:11:18 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'fast_config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tecautov/public_html/_core/_includes/config.php on line 3
+[28-Oct-2024 20:11:28 America/Sao_Paulo] PHP Warning:  include(fast_config.php): failed to open stream: No such file or directory in /home/tecautov/public_html/_core/_includes/config.php on line 3
+[28-Oct-2024 20:11:28 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'fast_config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tecautov/public_html/_core/_includes/config.php on line 3
+[20-Apr-2025 03:20:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function user_info() in /home/netlivre/public_html/administracao/inicio/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/netlivre/public_html/administracao/inicio/index.php on line 2
+[20-Apr-2025 03:20:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function user_info() in /home/netlivre/public_html/administracao/inicio/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/netlivre/public_html/administracao/inicio/index.php on line 2
+[20-Apr-2025 03:20:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function user_info() in /home/netlivre/public_html/administracao/inicio/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/netlivre/public_html/administracao/inicio/index.php on line 2

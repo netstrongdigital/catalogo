@@ -1,0 +1,564 @@
+[2024-04-29 23:50:41] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 1
+                    [preco] => 20.00
+                    [subtotal_item] => 20
+                    [variacoes] => Variações: Self-service Normal - R$ 20.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 8cbc3598dbf7692b071020f4a353e0f7
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 3
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-29 23:50:13
+            [vpedido] => 19.00
+            [cupom] => 5
+        )
+
+)
+
+[2024-04-29 23:50:41] Pedido PDV Sucesso: 23
+[2024-04-29 23:50:41] Confirmar Pedido PDV Sucesso: 1
+[2024-04-29 23:52:03] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 2
+                    [preco] => 25.00
+                    [subtotal_item] => 50
+                    [variacoes] => Variações: Self-service Completo  - R$ 25.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 3fa63a86cb68e9afd0cd9ea566757ddf
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 98299-0829
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-29 23:51:33
+            [vpedido] => 50.00
+            [cupom] => 0
+        )
+
+)
+
+[2024-04-29 23:52:03] Pedido PDV Sucesso: 24
+[2024-04-29 23:52:03] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 00:00:51] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 2
+                    [preco] => 20.00
+                    [subtotal_item] => 40
+                    [variacoes] => Variações: Self-service Normal - R$ 20.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 040dea6fe6a635966f889063e54a1d1f
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 98299-0829
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-29 23:59:58
+            [vpedido] => 40.00
+            [cupom] => 0
+        )
+
+)
+
+[2024-04-30 00:00:51] Pedido PDV Sucesso: 25
+[2024-04-30 00:00:51] Confirmar Pedido PDV Sucesso: 
+[2024-04-30 00:01:43] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 2
+                    [preco] => 20.00
+                    [subtotal_item] => 40
+                    [variacoes] => Variações: Self-service Normal - R$ 20.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 040dea6fe6a635966f889063e54a1d1f
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 98299-0829
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-29 23:59:58
+            [vpedido] => 40.00
+            [cupom] => 0
+        )
+
+)
+
+[2024-04-30 00:01:43] Pedido PDV Sucesso: 26
+[2024-04-30 00:01:43] Confirmar Pedido PDV Sucesso: 
+[2024-04-30 00:03:56] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 2
+                    [preco] => 20.00
+                    [subtotal_item] => 40
+                    [variacoes] => Variações: Self-service Normal - R$ 20.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 040dea6fe6a635966f889063e54a1d1f
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 98299-0829
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-29 23:59:58
+            [vpedido] => 40.00
+            [cupom] => 0
+        )
+
+)
+
+[2024-04-30 00:03:56] Pedido PDV Sucesso: 27
+[2024-04-30 00:03:56] Confirmar Pedido PDV Sucesso: 
+[2024-04-30 00:05:16] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 1
+                    [preco] => 25.00
+                    [subtotal_item] => 25
+                    [variacoes] => Variações: Self-service Completo  - R$ 25.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 23a95c4e06c0a41b303d7ffa85664c00
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 98299-0829
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-30 00:05:05
+            [vpedido] => 25.00
+            [cupom] => 0
+        )
+
+)
+
+[2024-04-30 00:05:16] Pedido PDV Sucesso: 28
+[2024-04-30 00:05:16] Confirmar Pedido PDV Sucesso: 
+[2024-04-30 08:39:10] Pedido Array: Array
+(
+    [itens] => Array
+        (
+            [0] => Array
+                (
+                    [produto_id] => 904
+                    [quantidade] => 1
+                    [preco] => 20.00
+                    [subtotal_item] => 20
+                    [variacoes] => Variações: Self-service Normal - R$ 20.00
+                )
+
+        )
+
+    [cliente] => Array
+        (
+            [token] => 0765174f42f3757270ef957eb0a6012f
+            [rel_segmentos_id] => 1
+            [rel_estabelecimentos_id] => 193
+            [nome] => Lucas Aquino
+            [whatsapp] => (12) 98299-0829
+            [estado] => 
+            [cidade] => 
+            [forma_entrega] => 0
+            [forma_entrega_nome] => Retirar no Local
+            [endereco_cep] => 
+            [endereco_numero] => 
+            [endereco_bairro] => 
+            [endereco_rua] => 
+            [endereco_complemento] => 
+            [endereco_referencia] => 
+            [forma_pagamento] => 1
+            [forma_pagamento_nome] => Dinheiro
+            [forma_pagamento_informacao] => 
+            [data_hora] => 2024-04-30 08:38:58
+            [vpedido] => 20.00
+            [cupom] => 0
+        )
+
+)
+
+[2024-04-30 08:39:10] Pedido PDV Sucesso: 29
+[2024-04-30 08:39:10] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 09:44:28] Pedido PDV Sucesso: 30
+[2024-04-30 09:44:28] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 09:48:01] Pedido PDV Erro: 
+[2024-04-30 09:52:13] Pedido PDV Erro: 
+[2024-04-30 09:52:24] Pedido PDV Erro: 
+[2024-04-30 09:52:29] Pedido PDV Erro: 
+[2024-04-30 09:53:31] Pedido PDV Erro: 
+[2024-04-30 09:54:24] Pedido PDV Erro: 
+[2024-04-30 09:56:55] Pedido PDV Erro: 
+[2024-04-30 09:57:30] Pedido PDV Erro: 
+[2024-04-30 09:58:19] Pedido PDV Erro: 
+[2024-04-30 10:01:24] Pedido PDV Erro: 
+[2024-04-30 10:02:07] Pedido PDV Erro: 
+[2024-04-30 10:02:29] Pedido PDV Erro: 
+[2024-04-30 10:03:31] Pedido PDV Erro: 
+[2024-04-30 10:03:52] Pedido PDV Erro: 
+[2024-04-30 10:07:04] Pedido PDV Sucesso: 399
+[2024-04-30 10:07:04] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:17:08] Pedido PDV Sucesso: 400
+[2024-04-30 10:17:08] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:19:19] Pedido PDV Sucesso: 401
+[2024-04-30 10:19:19] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:22:39] Pedido PDV Sucesso: 402
+[2024-04-30 10:22:39] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:28:32] Pedido PDV Sucesso: 403
+[2024-04-30 10:28:32] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:29:18] Pedido PDV Sucesso: 404
+[2024-04-30 10:29:18] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:29:41] Pedido PDV Sucesso: 405
+[2024-04-30 10:29:41] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:34:16] Pedido PDV Sucesso: 406
+[2024-04-30 10:34:16] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:39:13] Pedido PDV Sucesso: 407
+[2024-04-30 10:39:13] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:43:58] Pedido PDV Sucesso: 408
+[2024-04-30 10:43:58] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 10:47:59] Pedido PDV Sucesso: 409
+[2024-04-30 10:47:59] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 11:02:36] Pedido PDV Sucesso: 410
+[2024-04-30 11:02:36] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 11:04:05] Pedido PDV Sucesso: 411
+[2024-04-30 11:04:05] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 11:11:41] Pedido PDV Sucesso: 412
+[2024-04-30 11:11:41] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 11:38:21] Pedido PDV Sucesso: 413
+[2024-04-30 11:38:21] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 12:26:29] Pedido PDV Sucesso: 51
+[2024-04-30 12:26:29] Confirmar Pedido PDV Sucesso: 1
+[2024-04-30 15:08:41] Pedido PDV Sucesso: 53
+[2024-04-30 15:08:41] Confirmar Pedido PDV Sucesso: 1
+[2024-05-02 17:09:43] Pedido PDV Sucesso: 5
+[2024-05-02 17:09:43] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 10:14:18] Pedido PDV Sucesso: 361
+[2024-05-03 10:14:18] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 10:31:41] Pedido PDV Sucesso: 363
+[2024-05-03 10:31:41] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:13:00] Pedido PDV Sucesso: 6
+[2024-05-03 11:13:00] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:14:29] Pedido PDV Sucesso: 7
+[2024-05-03 11:14:29] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:14:50] Pedido PDV Sucesso: 8
+[2024-05-03 11:14:50] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:27:26] Pedido PDV Sucesso: 364
+[2024-05-03 11:27:26] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:27:45] Pedido PDV Sucesso: 365
+[2024-05-03 11:27:45] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:28:59] Pedido PDV Sucesso: 366
+[2024-05-03 11:28:59] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:34:24] Pedido PDV Sucesso: 367
+[2024-05-03 11:34:24] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 11:35:42] Pedido PDV Sucesso: 368
+[2024-05-03 11:35:42] Confirmar Pedido PDV Sucesso: 1
+[2024-05-03 14:31:39] Pedido PDV Sucesso: 370
+[2024-05-03 14:31:39] Confirmar Pedido PDV Sucesso: 1
+[2024-07-02 18:12:07] Pedido PDV Erro: 
+[2024-07-03 14:50:28] Pedido PDV Erro: 
+[2024-07-03 15:09:54] Pedido PDV Sucesso: 20
+[2024-07-03 15:09:54] Confirmar Pedido PDV Sucesso: 1
+[2024-07-03 15:29:47] Pedido PDV Sucesso: 21
+[2024-07-03 15:29:47] Confirmar Pedido PDV Sucesso: 1
+[2024-07-03 17:04:10] Pedido PDV Sucesso: 22
+[2024-07-03 17:04:10] Confirmar Pedido PDV Sucesso: 1
+[2024-07-09 20:42:33] Pedido PDV Sucesso: 20
+[2024-07-09 20:42:37] Pedido PDV Sucesso: 21
+[2024-07-09 20:42:38] Pedido PDV Sucesso: 22
+[2024-07-09 20:43:44] Pedido PDV Sucesso: 23
+[2024-07-09 20:43:45] Pedido PDV Sucesso: 24
+[2024-07-09 20:43:46] Pedido PDV Sucesso: 25
+[2024-07-09 20:45:32] Pedido PDV Sucesso: 26
+[2024-07-09 20:45:34] Pedido PDV Sucesso: 27
+[2024-07-17 23:06:44] Pedido PDV Sucesso: 28
+[2024-07-17 23:06:44] Confirmar Pedido PDV Sucesso: 1
+[2024-11-04 23:30:51] Pedido PDV Sucesso: 101
+[2024-11-04 23:30:51] Confirmar Pedido PDV Sucesso: 1
+[2024-11-04 23:35:32] Pedido PDV Sucesso: 102
+[2024-11-04 23:35:32] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:12:04] Pedido PDV Sucesso: 103
+[2024-11-05 08:12:04] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:20:17] Pedido PDV Sucesso: 104
+[2024-11-05 08:20:17] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:22:49] Pedido PDV Sucesso: 105
+[2024-11-05 08:22:49] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:24:09] Pedido PDV Sucesso: 106
+[2024-11-05 08:24:09] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:25:09] Pedido PDV Sucesso: 107
+[2024-11-05 08:25:09] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:28:50] Pedido PDV Sucesso: 108
+[2024-11-05 08:28:50] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:30:51] Pedido PDV Sucesso: 109
+[2024-11-05 08:30:51] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:31:35] Pedido PDV Sucesso: 110
+[2024-11-05 08:31:35] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 08:42:16] Pedido PDV Sucesso: 111
+[2024-11-05 08:42:16] Confirmar Pedido PDV Sucesso: 1
+[2024-11-05 17:53:09] Pedido PDV Sucesso: 112
+[2024-11-05 17:53:09] Confirmar Pedido PDV Sucesso: 1
+[2024-11-08 17:37:58] Pedido PDV Sucesso: 113
+[2024-11-08 17:37:58] Confirmar Pedido PDV Sucesso: 1
+[2024-11-19 14:32:11] Pedido PDV Sucesso: 119
+[2024-11-19 14:32:11] Confirmar Pedido PDV Sucesso: 1
+[2024-11-29 18:35:04] Pedido PDV Sucesso: 121
+[2024-11-29 18:35:04] Confirmar Pedido PDV Sucesso: 1
+[2025-02-18 14:37:58] Pedido PDV Sucesso: 120
+[2025-02-18 14:37:58] Confirmar Pedido PDV Sucesso: 1
+[2025-02-20 11:35:40] Pedido PDV Sucesso: 122
+[2025-02-20 11:35:40] Confirmar Pedido PDV Sucesso: 1
+[2025-02-20 11:37:33] Pedido PDV Sucesso: 123
+[2025-02-20 11:37:33] Confirmar Pedido PDV Sucesso: 1
+[2025-02-20 11:38:25] Pedido PDV Sucesso: 124
+[2025-02-20 11:38:25] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 04:28:18] Pedido PDV Sucesso: 126
+[2025-02-21 04:28:18] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 04:56:55] Pedido PDV Sucesso: 127
+[2025-02-21 04:56:55] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:11:17] Pedido PDV Sucesso: 128
+[2025-02-21 05:11:17] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:11:20] Pedido PDV Sucesso: 129
+[2025-02-21 05:11:20] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:11:22] Pedido PDV Sucesso: 130
+[2025-02-21 05:11:22] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:11:34] Pedido PDV Sucesso: 131
+[2025-02-21 05:11:34] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:12:04] Pedido PDV Sucesso: 132
+[2025-02-21 05:12:04] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:12:35] Pedido PDV Sucesso: 133
+[2025-02-21 05:12:35] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:13:15] Pedido PDV Sucesso: 134
+[2025-02-21 05:13:15] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:20:21] Pedido PDV Sucesso: 135
+[2025-02-21 05:20:21] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:20:48] Pedido PDV Sucesso: 136
+[2025-02-21 05:20:48] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:26:33] Pedido PDV Sucesso: 137
+[2025-02-21 05:26:33] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:26:49] Pedido PDV Sucesso: 138
+[2025-02-21 05:26:49] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:29:01] Pedido PDV Sucesso: 139
+[2025-02-21 05:29:01] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:36:49] Pedido PDV Sucesso: 140
+[2025-02-21 05:36:49] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:39:33] Pedido PDV Sucesso: 141
+[2025-02-21 05:39:33] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:39:58] Pedido PDV Sucesso: 142
+[2025-02-21 05:39:58] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:42:26] Pedido PDV Sucesso: 143
+[2025-02-21 05:42:26] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:47:16] Pedido PDV Sucesso: 144
+[2025-02-21 05:47:16] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:51:15] Pedido PDV Sucesso: 145
+[2025-02-21 05:51:15] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 05:55:39] Pedido PDV Sucesso: 146
+[2025-02-21 05:55:39] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:13:38] Pedido PDV Sucesso: 147
+[2025-02-21 06:13:38] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:16:03] Pedido PDV Sucesso: 148
+[2025-02-21 06:16:03] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:16:40] Pedido PDV Sucesso: 149
+[2025-02-21 06:16:40] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:16:44] Pedido PDV Sucesso: 150
+[2025-02-21 06:16:44] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:16:47] Pedido PDV Sucesso: 151
+[2025-02-21 06:16:47] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:16:50] Pedido PDV Sucesso: 152
+[2025-02-21 06:16:50] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:21:45] Pedido PDV Sucesso: 153
+[2025-02-21 06:21:45] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:22:00] Pedido PDV Sucesso: 154
+[2025-02-21 06:22:00] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:27:00] Pedido PDV Sucesso: 155
+[2025-02-21 06:27:00] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:50:55] Pedido PDV Sucesso: 156
+[2025-02-21 06:50:55] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 06:50:58] Pedido PDV Sucesso: 157
+[2025-02-21 06:50:58] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 08:15:37] Pedido PDV Sucesso: 158
+[2025-02-21 08:15:37] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 09:06:17] Pedido PDV Sucesso: 159
+[2025-02-21 09:06:17] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 09:43:38] Pedido PDV Sucesso: 160
+[2025-02-21 09:43:38] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:17:32] Pedido PDV Sucesso: 162
+[2025-02-21 10:17:32] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:22:10] Pedido PDV Sucesso: 163
+[2025-02-21 10:22:10] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:23:15] Pedido PDV Sucesso: 164
+[2025-02-21 10:23:15] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:35:18] Pedido PDV Sucesso: 165
+[2025-02-21 10:35:18] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:44:00] Pedido PDV Sucesso: 166
+[2025-02-21 10:44:00] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:45:18] Pedido PDV Sucesso: 167
+[2025-02-21 10:45:18] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 10:47:26] Pedido PDV Sucesso: 168
+[2025-02-21 10:47:26] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 11:14:07] Pedido PDV Sucesso: 169
+[2025-02-21 11:14:07] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 11:16:09] Pedido PDV Sucesso: 170
+[2025-02-21 11:16:09] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 11:30:28] Pedido PDV Sucesso: 171
+[2025-02-21 11:30:28] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 11:32:33] Pedido PDV Sucesso: 172
+[2025-02-21 11:32:33] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 11:33:56] Pedido PDV Sucesso: 173
+[2025-02-21 11:33:56] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:11:18] Pedido PDV Sucesso: 174
+[2025-02-21 12:11:18] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:16:01] Pedido PDV Sucesso: 175
+[2025-02-21 12:16:01] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:25:11] Pedido PDV Sucesso: 176
+[2025-02-21 12:25:11] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:26:04] Pedido PDV Sucesso: 177
+[2025-02-21 12:26:04] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:32:35] Pedido PDV Sucesso: 178
+[2025-02-21 12:32:35] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:51:00] Pedido PDV Sucesso: 179
+[2025-02-21 12:51:00] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 12:52:11] Pedido PDV Sucesso: 180
+[2025-02-21 12:52:11] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 13:27:31] Pedido PDV Sucesso: 181
+[2025-02-21 13:27:31] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 15:17:35] Pedido PDV Sucesso: 182
+[2025-02-21 15:17:35] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 17:46:56] Pedido PDV Sucesso: 183
+[2025-02-21 17:46:56] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 17:57:14] Pedido PDV Sucesso: 184
+[2025-02-21 17:57:14] Confirmar Pedido PDV Sucesso: 1
+[2025-02-21 18:02:57] Pedido PDV Sucesso: 185
+[2025-02-21 18:02:57] Confirmar Pedido PDV Sucesso: 1
+[2025-02-23 20:37:03] Pedido PDV Sucesso: 186
+[2025-02-23 20:37:03] Confirmar Pedido PDV Sucesso: 1
+[2025-03-23 22:11:35] Pedido PDV Sucesso: 221
+[2025-03-23 22:11:35] Confirmar Pedido PDV Sucesso: 1
+[2025-03-24 12:30:25] Pedido PDV Sucesso: 222
+[2025-03-24 12:30:25] Confirmar Pedido PDV Sucesso: 1
+[2025-04-20 16:52:19] Pedido PDV Sucesso: 242
+[2025-04-20 16:52:19] Confirmar Pedido PDV Sucesso: 1
