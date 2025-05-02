@@ -2,9 +2,9 @@
 include('../config.php');
 
 function calcular_frete_pacote($cep_origem, $cep_destino, $altura, $largura, $comprimento, $peso) {
+    global $token_melhorenvio, $email; // Adiciona $token_melhorenvio e $email ao escopo da função
     try{
         $url = "https://www.melhorenvio.com.br/api/v2/me/shipment/calculate";
-        $token = "$token_melhorenvio";
 
         // Dados a serem enviados
         $data = json_encode([
@@ -25,9 +25,9 @@ function calcular_frete_pacote($cep_origem, $cep_destino, $altura, $largura, $co
         // Configuração do cabeçalho
         $headers = [
             "Accept: application/json",
-            "Authorization: Bearer $token",
+            "Authorization: Bearer $token_melhorenvio", // Usa a variável global
             "Content-Type: application/json",
-            "User-Agent: Aplicação $email"
+            "User-Agent: Aplicação $email" // Usa a variável global $email
         ];
 
         // Inicializando cURL
