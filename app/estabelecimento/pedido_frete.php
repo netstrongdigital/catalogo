@@ -294,44 +294,59 @@ if ($formdata) {
                                 </div>
                             </div>
                             <div class="elemento-entrega">
-                                <input type="hidden" name="estado" value="<?php echo $app['estado']; ?>">
-                                <input type="hidden" name="cidade" value="<?php echo $app['cidade']; ?>">
                                 <div class="row">
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
                                         <div class="form-field-default">
                                             <label>CEP</label>
-                                            <input class="maskcep" type="text" name="endereco_cep" placeholder="CEP" <?php if(isset($_COOKIE['cep'])){ ?> value="<?php print $_COOKIE['cep']; ?>" <?php } else { ?> value="<?php echo htmlclean($_SESSION['checkout']['endereco_cep']); ?>" <?php } ?> required hx-get="#" hx-trigger="change" hx-swap="outerHTML" hx-target="#frete" hx-select="#frete">
+                                            <input class="maskcep" type="text" name="endereco_cep" placeholder="CEP" <?php if(isset($_COOKIE['cep'])){ ?> value="<?php print $_COOKIE['cep']; ?>" <?php } else { ?> value="<?php echo htmlclean($_SESSION['checkout']['endereco_cep']); ?>" <?php } ?> required>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="col-md-7 col-sm-7 col-xs-12">
+                                        <div class="form-field-default">
+                                            <label>Cidade</label>
+                                            <input type="text" name="endereco_cidade" placeholder="Cidade" value="<?php if(isset($_COOKIE['endereco_cidade'])){ print $_COOKIE['endereco_cidade']; } else { echo htmlclean($_SESSION['checkout']['endereco_cidade']); } ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <div class="form-field-default">
+                                            <label>UF</label>
+                                            <input type="text" name="endereco_estado" placeholder="UF" maxlength="2" value="<?php if(isset($_COOKIE['endereco_estado'])){ print $_COOKIE['endereco_estado']; } else { echo htmlclean($_SESSION['checkout']['endereco_estado']); } ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <div class="form-field-default">
+                                            <label>Endereço</label>
+                                            <input type="text" name="endereco_rua" placeholder="Endereço" value="<?php echo htmlclean($_SESSION['checkout']['endereco_rua']); ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
                                         <div class="form-field-default">
                                             <label>Nº</label>
-                                            <input type="text" name="endereco_numero" placeholder="Nº" <?php if(isset($_COOKIE['numero'])){ ?> value="<?php print $_COOKIE['numero']; ?>" <?php } else { ?> value="<?php echo htmlclean($_SESSION['checkout']['endereco_numero']); ?>" <?php } ?>>
+                                            <input type="text" name="endereco_numero" placeholder="Nº" <?php if(isset($_COOKIE['numero'])){ ?> value="<?php print $_COOKIE['numero']; ?>" <?php } else { ?> value="<?php echo htmlclean($_SESSION['checkout']['endereco_numero']); ?>" <?php } ?> >
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <input type="hidden" name="endereco_bairro" value="<?php echo htmlclean($_SESSION['checkout']['endereco_bairro']); ?>">
-                                    <div class="col-md-12">
-                                        <div class="form-field-default">
-                                            <label>Rua</label>
-                                            <input type="text" name="endereco_rua" placeholder="Rua" value="<?php echo htmlclean($_SESSION['checkout']['endereco_rua']); ?>">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="form-field-default">
                                             <label>Complemento</label>
-                                            <input type="text" name="endereco_complemento" placeholder="Complemento" value="<?php echo htmlclean($_SESSION['checkout']['endereco_complemento']); ?>">
+                                            <input type="text" name="endereco_complemento" placeholder="Complemento" value="<?php if(isset($_COOKIE['endereco_complemento'])){ print $_COOKIE['endereco_complemento']; } else { echo htmlclean($_SESSION['checkout']['endereco_complemento']); } ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-field-default">
+                                            <label>Bairro</label>
+                                            <input type="text" name="endereco_bairro" placeholder="Bairro" value="<?php if(isset($_COOKIE['endereco_bairro'])){ print $_COOKIE['endereco_bairro']; } else { echo htmlclean($_SESSION['checkout']['endereco_bairro']); } ?>">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="form-field-default">
                                             <label>Ponto de referência</label>
-                                            <input type="text" name="endereco_referencia" placeholder="Complemento" value="<?php echo htmlclean($_SESSION['checkout']['endereco_referencia']); ?>">
+                                            <input type="text" name="endereco_referencia" placeholder="Ponto de referência" value="<?php if(isset($_COOKIE['endereco_referencia'])){ print $_COOKIE['endereco_referencia']; } else { echo htmlclean($_SESSION['checkout']['endereco_referencia']); } ?>">
                                         </div>
                                     </div>
                                 </div>
